@@ -1,0 +1,11 @@
+{
+  "name": "iotserver",
+  "version": "1.0.0",
+  "description": "node server to test IoT capabilities of AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todd Hay",
+  "license": "ISC"
+}

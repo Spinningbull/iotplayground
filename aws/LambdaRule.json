@@ -1,0 +1,9 @@
+{
+    "sql": "SELECT * FROM 'topic/test'",
+    "ruleDisabled": false,
+    "actions": [{
+        "lambda": {
+            "functionArn": "arn:aws:lambda:us-east-1:978421622650:function:myHelloWorld"
+        }
+    }]
+}

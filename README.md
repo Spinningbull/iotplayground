@@ -5,19 +5,23 @@ This project is primarily for me to learn - the goal is to develop a cross-conta
 
 Platforms:
 - SmartThings
-- AWS
+- AWS, AWS IoT
 - Alexa
 - Arduino
 - Android
 - [IBM Watson] - if I get to it for personalization, ML
+- IFTTT - using the make channel and Node.js
 
 Tech Choices:
 - Groovy (for smartthings)
 - Node.js
-- nools
+- nools (maybe not, aws has enough support for rules so I don't need to learn this)
+- mqtt.js (for use with AWS IoT)
 
 Capabilities:
-- Rules engine
+- Rules engine to define 'complex' states to trigger actions
 - Voice commands
-- Data storage, and 'learning'
-- 
+- Data storage, and 'learning' to drive facts & assertions in rules
+- Android app to interact
+
+
