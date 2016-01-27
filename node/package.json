@@ -7,5 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Todd Hay",
-  "license": "ISC"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spinningbull/iotplayground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Spinningbull/iotplayground/issues"
+  },
+  "homepage": "https://github.com/Spinningbull/iotplayground#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.32",
+    "mqtt": "^1.7.0"
+  }
 }
