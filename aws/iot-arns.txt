@@ -1,0 +1,8 @@
+account id: 978421622650
+
+
+iot-actions-role: arn:aws:iam::978421622650:role/iot-actions-role
+iot-actions-policy: arn:aws:iam::978421622650:policy/iot-actions-policy
+
+lamda functions
+myHelloWorld: ARN - arn:aws:lambda:us-east-1:978421622650:function:myHelloWorld

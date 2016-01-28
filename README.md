@@ -25,3 +25,10 @@ Capabilities:
 - Android app to interact
 
 
+Concept 1:
+Capture all the events across devices in the house to determine patterns that can be converted to scenes.
+
+Need to do some feature processing to normalize the data for the ML engine - specifically:
+- All events within a certain time period (10m?) considered 'same' event
+- store 'day part' as part of data (perhaps determine actual day parts from the data)
+- discover chains of actions; eg. TV on, lights down...  Door opens, lights on... , etc.
